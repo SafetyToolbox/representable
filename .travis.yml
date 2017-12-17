@@ -14,3 +14,5 @@ matrix:
     env: JRUBY_OPTS="--profile.api"
   allow_failures:
   - rvm: jruby-9.1.5.0
+  - rvm: 1.9.3-p551
+  - rvm: 2.0.0-p648
